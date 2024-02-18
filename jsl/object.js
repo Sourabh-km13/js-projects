@@ -7,5 +7,7 @@ obj1.name="black"
 //rm to remove file
 //touch to create file
 const student={name:'sourabh', rollno:40}
-console.log(student);
-console.log(typeof(student.rollno));
+//console.log(Object.values(student));
+const marks={math:50,science:69}
+obj3={...student,...marks}
+console.log(obj3)
